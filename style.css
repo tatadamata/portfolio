@@ -34,9 +34,18 @@ ul {
   text-align: center;
 }
 
+blockquote {
+  margin-bottom: 40px;
+}
+
 h3 {
   color: #3b5872;
   font-size: 16px;
+  margin-bottom: 18px;
+}
+
+p {
+  margin-bottom: 15px;
 }
 
 .card {
@@ -44,5 +53,66 @@ h3 {
   border-radius: 5px;
   padding: 40px;
   width: 517px;
-  margin: auto;
+  margin: 0 auto 116px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.projeto {
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 4px 10px 0px rgba(157, 157, 157, 0.5);
+  overflow: hidden;
+  margin-bottom: 28px;
+}
+
+.projeto h4 {
+  margin: 17px 16px 2px;
+  color: #3b5872;
+  font-size: 14px;
+}
+
+.projeto p {
+  margin: 2px 16px 12px;
+  color: #5e768d;
+  font-size: 14px;
+}
+
+.projeto img {
+  height: 123px;
+  width: 100%;
+  object-fit: cover;
+}
+
+li {
+  text-align: left;
+  color: #5e768d;
+  font-size: 16px;
+}
+
+ul {
+  padding-left: 16px;
+  margin-bottom: 59px;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin: 0px auto;
+  display: block;
+  border-radius: 100%;
+  overflow: hidden;
+  border: solid 3px white;
+  box-shadow: 0px 5px 9px 0px rgb(4 4 4 / 38%);
+}
+
+ul:last-child {
+  margin-bottom: 0;
+}
+
+.projeto a {
+  text-decoration: none;
 }
